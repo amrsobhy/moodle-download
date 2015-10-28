@@ -93,7 +93,7 @@ for course in courses.iterkeys():
 			if re.search('.', filename, REFLAGS):
 
 				localname = filename
-				src, dest = sublink, os.path.join(os.path.expanduser("~/GG"), localname)
+				src, dest = sublink, os.path.join(os.path.expanduser("~/GG/" + course), localname)
 
 				if src in blacklist:
 					continue
