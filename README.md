@@ -1,6 +1,6 @@
 moodle-download
 =======
-Modified to work with Birkbeck Moodle
+Moodle downloader modified to work with Birkbeck Moodle
 
 Installation
 ------------
