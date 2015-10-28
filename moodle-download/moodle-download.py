@@ -87,13 +87,13 @@ for course in courses.iterkeys():
 		#	description = description.replace(string, '').strip()
 
 		sublink = browser.open(link.url).geturl()
-		for download in courses[course]['downloads']:
+		for download in courses[course]:
 
 			filename = os.path.basename(sublink)
 			if re.search('.', filename, REFLAGS):
 
 				localname = filename
-				src, dest = sublink, os.path.join(os.path.expanduser(download[2]), localname)
+				src, dest = sublink, os.path.join(os.path.expanduser("~/GG"), localname)
 
 				if src in blacklist:
 					continue
