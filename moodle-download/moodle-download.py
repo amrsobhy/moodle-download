@@ -20,6 +20,7 @@ import sys
 import json
 import re
 import mechanize
+import urllib2
 
 from docopt import docopt
 from getpass import getpass
@@ -92,7 +93,7 @@ for course in courses.iterkeys():
 			filename = os.path.basename(sublink)
 			if re.search('.', filename, REFLAGS):
 
-				localname = filename
+				localname = urllib2.unquote(filename).replace("?forcedownload=1", "")
 				src, dest = sublink, os.path.join(os.path.expanduser("~/GG/" + course), localname)
 
 				if src in blacklist:
