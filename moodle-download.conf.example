@@ -1,6 +1,6 @@
 {
-	"server" : "elearning2.uni-heidelberg.de",
-	"username" : "***",
+	"server" : "moodle.bbk.ac.uk",
+	"username" : "ahelal01",
 	"password" : "***",
 	"user-agent" : "moodle-download",
 	"symlink-on-desktop" : false,
