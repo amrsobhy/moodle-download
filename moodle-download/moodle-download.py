@@ -94,7 +94,7 @@ for course in courses.iterkeys():
 			if re.search('.', filename, REFLAGS):
 
 				localname = urllib2.unquote(filename).replace("?forcedownload=1", "")
-				src, dest = sublink, os.path.join(os.path.expanduser("~/GG/" + course), localname)
+				src, dest = sublink, os.path.join(os.path.expanduser("~/GG/" + course), localname.decode('utf-8') )
 
 				if src in blacklist:
 					continue
