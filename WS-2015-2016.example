@@ -1,14 +1,18 @@
 {
-	"Theoretical Statistical Physics": {
-		"id" : 10141,
-		"short": "TSP"
-	},
-	"Artificial Intelligence": {
-		"id" : 10038,
-		"short": "AI"
-	},
-	"Environmental Physics": {
-		"id" : 9947,
-		"short": "EnvPhys"
-	}
+"Global Governance": {
+"id" : 14610,
+"short": "GG"
+},
+"Public Management": {
+"id" : 14592,
+"short": "PA"
+},
+"Public Policy": {
+"id" : 14586,
+"short": "pp"
+},
+"Islamist Movements": {
+"id" : 13694,
+"short": "IM"
+}
 }
