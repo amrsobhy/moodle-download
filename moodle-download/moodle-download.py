@@ -90,13 +90,9 @@ for course in courses.iterkeys():
 		for download in courses[course]['downloads']:
 
 			filename = os.path.basename(sublink)
-			if re.search(download[0], filename, REFLAGS):
+			if re.search('.', filename, REFLAGS):
 
-				if config.has_key('pad-with-zeros') and config['pad-with-zeros'] > 0:
-					localname = download[1].replace('{#}', re.search(download[0], filename, REFLAGS).groups()[0].zfill(config['pad-with-zeros']))
-				else:
-					localname = download[1].replace('{#}', re.search(download[0], filename, REFLAGS).groups()[0])
-
+				localname = filename
 				src, dest = sublink, os.path.join(os.path.expanduser(download[2]), localname)
 
 				if src in blacklist:
