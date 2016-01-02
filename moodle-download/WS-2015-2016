@@ -1,0 +1,35 @@
+{
+"Global Governance": {
+"id" : 14610,
+"short": "GG"
+},
+"Public Management": {
+"id" : 14592,
+"short": "PA"
+},
+"Public Policy": {
+"id" : 14586,
+"short": "pp"
+},
+"Islamist Movements": {
+"id" : 13694,
+"short": "IM"
+},
+"Digital Politics": {
+"id" : 15274,
+"short": "DP"
+},
+"Political Theory": {
+"id":14583,
+"short": "PT"
+},
+"Political Sociology" : {
+"id":14584,
+"short" : "PS"
+},
+"Political Economy":{
+"id":14575,
+"short" : "economy"
+}
+
+}
