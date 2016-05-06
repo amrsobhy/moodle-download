@@ -6,7 +6,8 @@ Installation
 ------------
 
 1. Download or clone the repository from GitHub.
-2. Install the requirements: `sudo pip install -r requirements.txt`
+2. Install the requirements: `sudo easy_install pip
+sudo pip install -r requirements.txt`
 3. Create necessary directories: `mkdir -p ~/.config/moodle-download/profiles`
 4. Copy your configuration file to `nano ~/.config/moodle-download/moodle-download.conf` 
 5- run it `python /Applications/MAMP/htdocs/pg/moodle-download/moodle-download/moodle-download.py WS-2015-2016`
